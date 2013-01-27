@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
      
   s.subspec 'FastPdfKit.embeddedframework' do |ss|  	
      ss.resources = 'FastPdfKit.embeddedframework/Resources/FPKReaderBundle.bundle'
-     ss.source_files = 'FastPdfKit.embeddedframework/FastPdfKit.framework/*.{h}'
+     ss.source_files = 'FastPdfKit.embeddedframework/FastPdfKit.framework/Headers'
      ss.preserve_paths = 'FastPdfKit.embeddedframework/FastPdfKit.framework', 'FastPdfKit.embeddedframework/Resources'
   
      #ss.dependency '' 
